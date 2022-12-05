@@ -7,6 +7,9 @@ from random import choices
 import matplotlib
 matplotlib.use('Agg')
 
+import os
+if not os.path.exists('plots'): os.makedirs('plots')
+
 def create_summary_plot(parameters,name=''):
     #creates one of the summary plots
     fig, ax = plt.subplots()
