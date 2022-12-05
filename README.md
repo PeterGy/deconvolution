@@ -14,9 +14,11 @@ Once you have acquired the detector data, ensure that both halves of the detecto
 Place the correlated file into the 'reconstructions' folder (you might have to create it manually).
 
 In order to run the program:
-1. Process the data file using PulseHeightExtractor.py. Use command line arguments to select the bars you 
-want to extract or edit the file direcctly.
+1. Process the data file using `ldmx python3 PulseHeightExtractor.py`. Use command line arguments or edit the file directly to select the bars you want to extract. Each bar takes a few minutes, so run the script in parallel for each bar on a supercomputer to make it economical. The two bash scripts can help.
+
+2. Analyse the extracted data files using `ldmx python3 PulseHeightAnalyser.py`. By default, it analyses layers 3-15, providing a plot of the three functions and also summary analysis plots of the whole detector. Edit the file directly to select the bars you want to analyse.
 
 
-ldmx python3 PulseHeightExtractor.py
-ldmx python3 PulseHeightAnalyser.py
+
+
+
