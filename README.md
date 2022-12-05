@@ -1,4 +1,4 @@
-This program takes data fromm the LDMX HCal prototype and deconvolves the noise function from the signal function.
+This program takes data fromm the LDMX HCal prototype and deconvolves (through reverse-convolution) the noise function from the signal function.
 
 For a full understanding, please read [the report.](https://docs.google.com/document/d/1-FgOJHY-Og2vCMAz9AdPcSCgeD4munGIvt0CJ_cmqzI/edit?usp=sharing)
  
